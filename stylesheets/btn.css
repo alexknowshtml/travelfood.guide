@@ -1,0 +1,71 @@
+@charset "UTF-8";
+/**
+ * Reset button styles
+ * It takes some work to achieve a “blank slate” look.
+ */
+/* line 5, ../sass/btn.scss */
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  /* show a hand cursor on hover; some argue that we
+  should keep the default arrow cursor for buttons */
+  cursor: pointer;
+}
+
+/**
+ * Button component
+ */
+/* line 19, ../sass/btn.scss */
+.btn {
+  /* default for <button>, but needed for <a> */
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  /* create a small space when buttons wrap on 2 lines */
+  margin: 2px 0;
+  /* invisible border (will be colored on hover/focus) */
+  border: solid 1px transparent;
+  border-radius: 4px;
+  /* button size comes from text + padding, avoid height */
+  padding: 0.5em 1em;
+  /* make sure colors have enough contrast! */
+  color: #FFFFFF;
+  background-color: #9555AF;
+}
+
+/* old-school "down" effect on clic + color tweak */
+/* line 41, ../sass/btn.scss */
+.btn:active {
+  transform: translateY(1px);
+  filter: saturate(150%);
+}
+
+/* inverse colors on hover */
+/* line 47, ../sass/btn.scss */
+.btn:hover {
+  color: #9050AA;
+  border-color: currentColor;
+  background-color: white;
+}
+
+/* Firefox: remove the inner border shown on focus */
+/* line 54, ../sass/btn.scss */
+.btn::-moz-focus-inner {
+  border: none;
+}
+
+/* make sure we have a visible focus ring */
+/* line 59, ../sass/btn.scss */
+.btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 105, 180, 0.5), 0 0 0 1.5px rgba(255, 105, 180, 0.5);
+}
+
+/* hide focus style if not from keyboard navigation */
+/* line 66, ../sass/btn.scss */
+.js-focus-visible .btn:focus:not(.focus-visible) {
+  box-shadow: none;
+}

@@ -3,7 +3,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 5, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, ../../../.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -25,45 +25,45 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, ../../../.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, ../../../.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, ../../../.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, ../../../.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, ../../../.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 103, ../../../.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, ../../../.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, ../../../.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
@@ -72,9 +72,9 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* Basic layout elements */
 /* line 19, ../sass/_layout.scss */
 #writing {
-  width: calc(100% * 2/3);
+  width: calc(100% * 3/4);
   height: 100vh;
-  margin-left: calc(100% /3);
+  margin-left: calc(100% /4);
   overflow-y: scroll;
   background-color: #fafafa;
   -webkit-overflow-scrolling: touch;
@@ -90,7 +90,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 /* line 34, ../sass/_layout.scss */
 #map {
-  width: calc(100% /3);
+  width: calc(100% /4);
   height: 100vh;
   position: absolute;
   top: 0;
@@ -110,7 +110,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 /* line 50, ../sass/_layout.scss */
 section,
 .section {
-  padding: 50px;
+  padding: 50px 50px 20px 50px;
   line-height: 25px;
   font-size: 13px;
   width: auto;
@@ -172,7 +172,7 @@ section .box:nth-child(6),
 section {
   opacity: 0.25;
   border-bottom: 1px solid #dddddd;
-  padding: 100px 50px;
+  padding: 20px 50px;
 }
 @media screen and (max-width: 767px) {
   /* line 84, ../sass/_layout.scss */
@@ -196,12 +196,12 @@ section:last-child {
 /* This is the navigation section */
 /* line 108, ../sass/_layout.scss */
 section#intro {
-  padding-top: 120px;
+  padding-top: 10px;
 }
 /* line 112, ../sass/_layout.scss */
 section.navigation {
   position: fixed;
-  right: 0px;
+  right: 15px;
   top: 5px;
   width: auto;
   opacity: 1;
@@ -305,6 +305,7 @@ section.navigation i {
 /* line 217, ../sass/_layout.scss */
 .grid {
   margin-top: 4em;
+  margin-bottom: 4em;
   width: 100%;
   display: -ms-grid;
   display: grid;
@@ -312,104 +313,104 @@ section.navigation i {
   grid-gap: 4px;
   grid-auto-flow: dense;
 }
-/* line 226, ../sass/_layout.scss */
+/* line 227, ../sass/_layout.scss */
 .grid .box {
   grid-column-start: auto;
   /* These are all our potential image box sizes */
   /* Mobile styles */
 }
-/* line 229, ../sass/_layout.scss */
+/* line 230, ../sass/_layout.scss */
 .grid .box .image-wrapper {
   background-position: center;
   background-size: cover;
 }
-/* line 235, ../sass/_layout.scss */
+/* line 236, ../sass/_layout.scss */
 .grid .box--1x1 {
   /* Padding needs to be applied to inner divs */
 }
-/* line 237, ../sass/_layout.scss */
+/* line 238, ../sass/_layout.scss */
 .grid .box--1x1 .image-wrapper {
   padding-bottom: 100%;
 }
-/* line 241, ../sass/_layout.scss */
+/* line 242, ../sass/_layout.scss */
 .grid .box--1x2 {
   grid-row-end: span 2;
 }
-/* line 243, ../sass/_layout.scss */
+/* line 244, ../sass/_layout.scss */
 .grid .box--1x2 .image-wrapper {
   padding-bottom: 150%;
 }
-/* line 247, ../sass/_layout.scss */
+/* line 248, ../sass/_layout.scss */
 .grid .box--2x1 {
   grid-column-end: span 2;
 }
-/* line 249, ../sass/_layout.scss */
+/* line 250, ../sass/_layout.scss */
 .grid .box--2x1 .image-wrapper {
   padding-bottom: calc(50% - 2px);
 }
-/* line 253, ../sass/_layout.scss */
+/* line 254, ../sass/_layout.scss */
 .grid .box--2x2 {
   grid-column-end: span 2;
   grid-row-end: span 2;
 }
-/* line 256, ../sass/_layout.scss */
+/* line 257, ../sass/_layout.scss */
 .grid .box--2x2 .image-wrapper {
   padding-bottom: 100%;
 }
-/* line 260, ../sass/_layout.scss */
+/* line 261, ../sass/_layout.scss */
 .grid .box--3x1 {
   grid-column-end: span 3;
 }
-/* line 262, ../sass/_layout.scss */
+/* line 263, ../sass/_layout.scss */
 .grid .box--3x1 .image-wrapper {
   padding-bottom: 33.33%;
 }
-/* line 266, ../sass/_layout.scss */
+/* line 267, ../sass/_layout.scss */
 .grid .box--3x2 {
   grid-column-end: span 3;
 }
-/* line 268, ../sass/_layout.scss */
+/* line 269, ../sass/_layout.scss */
 .grid .box--3x2 .image-wrapper {
   padding-bottom: 66.66%;
 }
-/* line 272, ../sass/_layout.scss */
+/* line 273, ../sass/_layout.scss */
 .grid .box--3x3 {
   grid-column-end: span 3;
 }
-/* line 274, ../sass/_layout.scss */
+/* line 275, ../sass/_layout.scss */
 .grid .box--3x3 .image-wrapper {
   padding-bottom: 100%;
 }
 @media screen and (max-width: 767px) {
-  /* line 279, ../sass/_layout.scss */
+  /* line 280, ../sass/_layout.scss */
   .grid .box--1x1, .grid .box--1x2, .grid .box--2x2, .grid .box--3x3 {
     grid-column-end: span 3;
   }
-  /* line 285, ../sass/_layout.scss */
+  /* line 286, ../sass/_layout.scss */
   .grid .box--1x1 .image-wrapper, .grid .box--1x2 .image-wrapper, .grid .box--2x2 .image-wrapper, .grid .box--3x3 .image-wrapper {
     padding-bottom: 100%;
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 290, ../sass/_layout.scss */
+  /* line 291, ../sass/_layout.scss */
   .grid .box--2x1, .grid .box--3x1, .grid .box--3x2 {
     grid-column-end: span 3;
   }
-  /* line 295, ../sass/_layout.scss */
+  /* line 296, ../sass/_layout.scss */
   .grid .box--2x1 .image-wrapper, .grid .box--3x1 .image-wrapper, .grid .box--3x2 .image-wrapper {
     padding-bottom: 66.66%;
   }
 }
 
 /* A mess of styles for browsers that don't support grid */
-/* line 304, ../sass/_layout.scss */
+/* line 305, ../sass/_layout.scss */
 .no-cssgrid .grid,
 .cssgridlegacy .grid {
   display: block;
   font-size: 0;
   margin-top: 50px;
 }
-/* line 311, ../sass/_layout.scss */
+/* line 312, ../sass/_layout.scss */
 .no-cssgrid .grid .box,
 .cssgridlegacy .grid .box {
   width: calc(100% /3 - 6px);
@@ -419,84 +420,84 @@ section.navigation i {
   background-color: #fafafa;
   /* Mobile styles */
 }
-/* line 318, ../sass/_layout.scss */
+/* line 319, ../sass/_layout.scss */
 .no-cssgrid .grid .box .image-wrapper,
 .cssgridlegacy .grid .box .image-wrapper {
   background-size: cover;
   background-position: center;
 }
-/* line 323, ../sass/_layout.scss */
+/* line 324, ../sass/_layout.scss */
 .no-cssgrid .grid .box--1x1,
 .cssgridlegacy .grid .box--1x1 {
   width: calc(100% /3 - 6px);
 }
-/* line 325, ../sass/_layout.scss */
+/* line 326, ../sass/_layout.scss */
 .no-cssgrid .grid .box--1x1 .image-wrapper,
 .cssgridlegacy .grid .box--1x1 .image-wrapper {
   padding-bottom: 100%;
 }
-/* line 329, ../sass/_layout.scss */
+/* line 330, ../sass/_layout.scss */
 .no-cssgrid .grid .box--1x2,
 .cssgridlegacy .grid .box--1x2 {
   width: calc(100% /3 - 6px);
 }
-/* line 331, ../sass/_layout.scss */
+/* line 332, ../sass/_layout.scss */
 .no-cssgrid .grid .box--1x2 .image-wrapper,
 .cssgridlegacy .grid .box--1x2 .image-wrapper {
   padding-bottom: 100%;
 }
-/* line 335, ../sass/_layout.scss */
+/* line 336, ../sass/_layout.scss */
 .no-cssgrid .grid .box--2x1,
 .cssgridlegacy .grid .box--2x1 {
   width: calc(100% *2/3 - 8px);
 }
-/* line 337, ../sass/_layout.scss */
+/* line 338, ../sass/_layout.scss */
 .no-cssgrid .grid .box--2x1 .image-wrapper,
 .cssgridlegacy .grid .box--2x1 .image-wrapper {
   padding-bottom: calc(50% - 2px);
 }
-/* line 341, ../sass/_layout.scss */
+/* line 342, ../sass/_layout.scss */
 .no-cssgrid .grid .box--2x2,
 .cssgridlegacy .grid .box--2x2 {
   width: calc(100% /3 - 6px);
 }
-/* line 343, ../sass/_layout.scss */
+/* line 344, ../sass/_layout.scss */
 .no-cssgrid .grid .box--2x2 .image-wrapper,
 .cssgridlegacy .grid .box--2x2 .image-wrapper {
   padding-bottom: 100%;
 }
-/* line 347, ../sass/_layout.scss */
+/* line 348, ../sass/_layout.scss */
 .no-cssgrid .grid .box--3x1,
 .cssgridlegacy .grid .box--3x1 {
   width: calc(100% - 10px);
 }
-/* line 349, ../sass/_layout.scss */
+/* line 350, ../sass/_layout.scss */
 .no-cssgrid .grid .box--3x1 .image-wrapper,
 .cssgridlegacy .grid .box--3x1 .image-wrapper {
   padding-bottom: 33.33%;
 }
-/* line 353, ../sass/_layout.scss */
+/* line 354, ../sass/_layout.scss */
 .no-cssgrid .grid .box--3x2,
 .cssgridlegacy .grid .box--3x2 {
   width: calc(100% - 10px);
 }
-/* line 355, ../sass/_layout.scss */
+/* line 356, ../sass/_layout.scss */
 .no-cssgrid .grid .box--3x2 .image-wrapper,
 .cssgridlegacy .grid .box--3x2 .image-wrapper {
   padding-bottom: 66.66%;
 }
-/* line 359, ../sass/_layout.scss */
+/* line 360, ../sass/_layout.scss */
 .no-cssgrid .grid .box--3x3,
 .cssgridlegacy .grid .box--3x3 {
   width: calc(100% - 10px);
 }
-/* line 361, ../sass/_layout.scss */
+/* line 362, ../sass/_layout.scss */
 .no-cssgrid .grid .box--3x3 .image-wrapper,
 .cssgridlegacy .grid .box--3x3 .image-wrapper {
   padding-bottom: 100%;
 }
 @media screen and (max-width: 767px) {
-  /* line 366, ../sass/_layout.scss */
+  /* line 367, ../sass/_layout.scss */
   .no-cssgrid .grid .box--1x1, .no-cssgrid .grid .box--1x2, .no-cssgrid .grid .box--2x2, .no-cssgrid .grid .box--3x3,
   .cssgridlegacy .grid .box--1x1,
   .cssgridlegacy .grid .box--1x2,
@@ -504,7 +505,7 @@ section.navigation i {
   .cssgridlegacy .grid .box--3x3 {
     width: 100%;
   }
-  /* line 372, ../sass/_layout.scss */
+  /* line 373, ../sass/_layout.scss */
   .no-cssgrid .grid .box--1x1 .image-wrapper, .no-cssgrid .grid .box--1x2 .image-wrapper, .no-cssgrid .grid .box--2x2 .image-wrapper, .no-cssgrid .grid .box--3x3 .image-wrapper,
   .cssgridlegacy .grid .box--1x1 .image-wrapper,
   .cssgridlegacy .grid .box--1x2 .image-wrapper,
@@ -514,14 +515,14 @@ section.navigation i {
   }
 }
 @media screen and (max-width: 767px) {
-  /* line 377, ../sass/_layout.scss */
+  /* line 378, ../sass/_layout.scss */
   .no-cssgrid .grid .box--2x1, .no-cssgrid .grid .box--3x1, .no-cssgrid .grid .box--3x2,
   .cssgridlegacy .grid .box--2x1,
   .cssgridlegacy .grid .box--3x1,
   .cssgridlegacy .grid .box--3x2 {
     width: 100%;
   }
-  /* line 382, ../sass/_layout.scss */
+  /* line 383, ../sass/_layout.scss */
   .no-cssgrid .grid .box--2x1 .image-wrapper, .no-cssgrid .grid .box--3x1 .image-wrapper, .no-cssgrid .grid .box--3x2 .image-wrapper,
   .cssgridlegacy .grid .box--2x1 .image-wrapper,
   .cssgridlegacy .grid .box--3x1 .image-wrapper,
@@ -530,60 +531,60 @@ section.navigation i {
   }
 }
 
-/* line 390, ../sass/_layout.scss */
+/* line 391, ../sass/_layout.scss */
 .end {
   text-align: center;
 }
-/* line 393, ../sass/_layout.scss */
+/* line 394, ../sass/_layout.scss */
 .end .h1, .end .h2 {
   color: #444444;
   padding-bottom: 1rem;
 }
-/* line 398, ../sass/_layout.scss */
+/* line 399, ../sass/_layout.scss */
 .end p {
   color: #c9c9c9;
   font-size: 0.8rem;
   margin-bottom: 0.5rem;
 }
-/* line 403, ../sass/_layout.scss */
+/* line 404, ../sass/_layout.scss */
 .end p a {
   color: #c9c9c9;
   text-decoration: underline;
 }
-/* line 407, ../sass/_layout.scss */
+/* line 408, ../sass/_layout.scss */
 .end p a:hover, .end p a:active {
   color: #aaaaaa;
 }
 
 /* Type */
-/* line 417, ../sass/_layout.scss */
+/* line 418, ../sass/_layout.scss */
 html,
 body {
-  font-family: -apple-system,  BlinkMacSystemFont,  "Segoe UI",  Roboto,  Oxygen-Sans,  Ubuntu,  Cantarell,  "Helvetica Neue",  sans-serif;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
   font-size: 18px;
   color: #444444;
 }
 
-/* line 432, ../sass/_layout.scss */
+/* line 433, ../sass/_layout.scss */
 p {
   font-size: 1rem;
   line-height: 1.4;
   margin-bottom: 1em;
 }
 
-/* line 438, ../sass/_layout.scss */
+/* line 439, ../sass/_layout.scss */
 em {
   font-style: italic;
 }
 
-/* line 442, ../sass/_layout.scss */
+/* line 443, ../sass/_layout.scss */
 h1, h2, h3, h4 {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   line-height: 1.4;
 }
 
-/* line 448, ../sass/_layout.scss */
+/* line 449, ../sass/_layout.scss */
 h1, .h1 {
   display: block;
   font-size: 1.75rem;
@@ -593,72 +594,108 @@ h1, .h1 {
   line-height: 1.2;
 }
 
-/* line 457, ../sass/_layout.scss */
+/* line 458, ../sass/_layout.scss */
 h2, .h2 {
-  font-size: 1rem;
+  font-size: 1.65rem;
   padding-bottom: 10px;
   text-transform: uppercase;
   font-weight: 800;
-  color: #ccccb5;
+  color: #1e1b1a;
   letter-spacing: 1px;
 }
 
-/* line 466, ../sass/_layout.scss */
+/* line 467, ../sass/_layout.scss */
 h3, .h3 {
   font-size: 1.2rem;
   padding-bottom: 10px;
+  margin-top: 50px;
   font-weight: 800;
   color: #1f1f1f;
   display: block;
   letter-spacing: 0.025rem;
 }
 
-/* line 475, ../sass/_layout.scss */
+/* line 477, ../sass/_layout.scss */
+h4, .h4 {
+  color: #aaaaaa;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  display: block;
+}
+
+/* line 484, ../sass/_layout.scss */
 .date {
   color: #aaaaaa;
   line-height: 1.4rem;
   display: block;
 }
 
-/* line 481, ../sass/_layout.scss */
+/* line 490, ../sass/_layout.scss */
 a {
   color: #4d77be;
   text-decoration: none;
 }
-/* line 485, ../sass/_layout.scss */
+/* line 494, ../sass/_layout.scss */
 a:hover, a:active {
   color: #4d77be;
   text-decoration: underline;
 }
 
+/* line 501, ../sass/_layout.scss */
+ul {
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+/* line 505, ../sass/_layout.scss */
+ul li {
+  list-style-type: disc;
+  margin-left: 25px;
+}
+
+/* line 511, ../sass/_layout.scss */
+strong {
+  font-weight: bold;
+}
+
+/* line 514, ../sass/_layout.scss */
+.center {
+  text-align: center;
+}
+
+/* line 517, ../sass/_layout.scss */
+.right {
+  text-align: right;
+}
+
 /* Icons Headings */
-/* line 494, ../sass/_layout.scss */
+/* line 523, ../sass/_layout.scss */
 i {
   position: relative;
   display: inline-block;
   width: 3em;
   height: 3em;
   margin-right: 8px;
+  margin-top: 12px;
 }
-/* line 501, ../sass/_layout.scss */
+/* line 531, ../sass/_layout.scss */
 i:after {
   width: 3em;
   height: 3em;
   position: absolute;
   content: "";
-  background-color: #ccccb5;
+  background-color: #1e1b1a;
   border-radius: 50%;
   z-index: 0;
 }
 
-/* line 512, ../sass/_layout.scss */
+/* line 542, ../sass/_layout.scss */
 i + h2 {
   display: inline-block;
   line-height: 2.25;
   vertical-align: top;
 }
 
-/* line 518, ../sass/_layout.scss */
+/* line 548, ../sass/_layout.scss */
 i:before {
   font-size: 1.75em;
   width: 1.75em;
@@ -668,4 +705,75 @@ i:before {
   top: 0.35em;
   color: white;
   z-index: 1;
+}
+
+/**
+ * Reset button styles
+ * It takes some work to achieve a “blank slate” look.
+ */
+/* line 5, ../sass/btn.scss */
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
+  /* show a hand cursor on hover; some argue that we
+  should keep the default arrow cursor for buttons */
+  cursor: pointer;
+}
+
+/**
+ * Button component
+ */
+/* line 19, ../sass/btn.scss */
+.btn {
+  /* default for <button>, but needed for <a> */
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  /* create a small space when buttons wrap on 2 lines */
+  margin: 2px 0;
+  /* invisible border (will be colored on hover/focus) */
+  border: solid 1px transparent;
+  border-radius: 4px;
+  /* button size comes from text + padding, avoid height */
+  padding: 0.5em 1em;
+  /* make sure colors have enough contrast! */
+  color: #FFFFFF;
+  background-color: #9555AF;
+}
+
+/* old-school "down" effect on clic + color tweak */
+/* line 41, ../sass/btn.scss */
+.btn:active {
+  transform: translateY(1px);
+  filter: saturate(150%);
+}
+
+/* inverse colors on hover */
+/* line 47, ../sass/btn.scss */
+.btn:hover {
+  color: #9050AA;
+  border-color: currentColor;
+  background-color: white;
+}
+
+/* Firefox: remove the inner border shown on focus */
+/* line 54, ../sass/btn.scss */
+.btn::-moz-focus-inner {
+  border: none;
+}
+
+/* make sure we have a visible focus ring */
+/* line 59, ../sass/btn.scss */
+.btn:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 105, 180, 0.5), 0 0 0 1.5px rgba(255, 105, 180, 0.5);
+}
+
+/* hide focus style if not from keyboard navigation */
+/* line 66, ../sass/btn.scss */
+.js-focus-visible .btn:focus:not(.focus-visible) {
+  box-shadow: none;
 }
