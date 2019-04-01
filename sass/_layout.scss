@@ -32,20 +32,10 @@ $blue:					#4d77be;
 		display: block;
 		margin-top:50px;
 	}
-
-	@media #{$break-mobile-large} {
-		background: transparent;
-		width: 100%;
-		margin-left: 0;
-	}
 	#toc-list {
 		margin-bottom: 25px;
 		margin-left: 50px;
 		text-align: center;
-
-		@media #{$break-mobile-large} {
-			margin-left:0;
-		}
 
 		a {
 			display:inline-block;
@@ -63,6 +53,12 @@ $blue:					#4d77be;
 				vertical-align: top;
 			}
 		}
+	}
+
+	@media #{$break-mobile-large} {
+		background: transparent;
+		width: 100%;
+		margin-left: 0;
 	}
 }
 
