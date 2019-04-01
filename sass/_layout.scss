@@ -43,6 +43,10 @@ $blue:					#4d77be;
 		margin-left: 50px;
 		text-align: center;
 
+		@media #{$break-mobile-large} {
+			margin-left:0;
+		}
+
 		a {
 			display:inline-block;
 			text-align:left;
