@@ -106,7 +106,7 @@ section,
 
 	@media #{$break-mobile-large} {
 		display: block;
-		/*margin-bottom: 85vh;*/
+		margin-bottom: 85vh;
 		background: white;
 		max-width: calc(100% - 40px);
 	}
@@ -119,6 +119,12 @@ section {
 
 	@media #{$break-mobile-large} {
 		padding: 50px 20px;
+	}
+}
+
+section .section,  {
+	@media #{$break-mobile-large} {
+		margin-bottom:0;
 	}
 }
 
@@ -480,7 +486,7 @@ h1, h2, h3, h4 {
 h1, .h1 {
 	display: block;
 	font-size: 1.75rem;
-    padding-bottom: 2rem;
+    /*padding-bottom: 2rem;*/
     font-weight: 900;
     letter-spacing: 0.025rem;
     line-height: 1.2;
@@ -573,7 +579,8 @@ i {
 
 i+h2 {
 	display: inline-block;
-	line-height: 2.25;
+	/*line-height: 2.25;*/
+	margin-top:.5rem;
 	vertical-align: top;
 }
 
