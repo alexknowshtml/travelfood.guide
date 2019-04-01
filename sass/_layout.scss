@@ -106,7 +106,7 @@ section,
 
 	@media #{$break-mobile-large} {
 		display: block;
-		margin-bottom: 85vh;
+		/*margin-bottom: 85vh;*/
 		background: white;
 		max-width: calc(100% - 40px);
 	}

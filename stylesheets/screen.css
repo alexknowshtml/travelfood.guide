@@ -201,7 +201,7 @@ section .box:nth-child(6),
   section,
   .section {
     display: block;
-    margin-bottom: 85vh;
+    /*margin-bottom: 85vh;*/
     background: white;
     max-width: calc(100% - 40px);
   }
