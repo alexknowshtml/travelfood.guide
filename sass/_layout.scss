@@ -36,7 +36,6 @@ $blue:					#4d77be;
 		margin-bottom: 25px;
 		margin-left: 50px;
 		text-align: center;
-
 		a {
 			display:inline-block;
 			text-align:left;
@@ -53,8 +52,10 @@ $blue:					#4d77be;
 				vertical-align: top;
 			}
 		}
+		@media #{$break-mobile-large} {
+			margin-left: 0px;
+		}
 	}
-
 	@media #{$break-mobile-large} {
 		background: transparent;
 		width: 100%;
