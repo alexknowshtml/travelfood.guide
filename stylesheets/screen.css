@@ -864,3 +864,8 @@ button {
 .js-focus-visible .btn:focus:not(.focus-visible) {
   box-shadow: none;
 }
+
+/* line 70, ../sass/btn.scss */
+.rm-inline div.rm-answer-container .rm-button[data-v-9969fc36] {
+  font-weight: bold !important;
+}
