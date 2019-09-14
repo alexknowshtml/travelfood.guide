@@ -2,9 +2,9 @@
 Error: File to import not found or unreadable: internetexplorer.
        Load paths:
          Compass::SpriteImporter
-         /Users/alexhillman/Sites/travellog/sass
+         /Users/alexhillman/Sites/travelfood.guide/sass
          /Users/alexhillman/.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets
-        on line 7 of /Users/alexhillman/Sites/travellog/sass/ie.scss
+        on line 7 of /Users/alexhillman/Sites/travelfood.guide/sass/ie.scss
 
 2:  * Import this file using the following HTML or equivalent:
 3:  * <!--[if IE]>
@@ -14,7 +14,7 @@ Error: File to import not found or unreadable: internetexplorer.
 7: @import "internetexplorer";
 
 Backtrace:
-/Users/alexhillman/Sites/travellog/sass/ie.scss:7
+/Users/alexhillman/Sites/travelfood.guide/sass/ie.scss:7
 /Users/alexhillman/.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/import_node.rb:67:in `rescue in import'
 /Users/alexhillman/.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/import_node.rb:44:in `import'
 /Users/alexhillman/.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/sass-3.4.25/lib/sass/tree/import_node.rb:28:in `imported_file'
@@ -58,4 +58,4 @@ Backtrace:
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: File to import not found or unreadable: internetexplorer.\A        Load paths:\A          Compass::SpriteImporter\A          /Users/alexhillman/Sites/travellog/sass\A          /Users/alexhillman/.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets\A         on line 7 of /Users/alexhillman/Sites/travellog/sass/ie.scss\A \A 2:  * Import this file using the following HTML or equivalent:\A 3:  * <!--[if IE]>\A 4:  *   <link href=\"/stylesheets/ie.css\" media=\"screen, projection\" rel=\"stylesheet\" type=\"text/css\" />\A 5:  * <![endif]--> */\A 6: \A 7: @import \"internetexplorer\";"; }
+  content: "Error: File to import not found or unreadable: internetexplorer.\A        Load paths:\A          Compass::SpriteImporter\A          /Users/alexhillman/Sites/travelfood.guide/sass\A          /Users/alexhillman/.rbenv/versions/2.6.1/lib/ruby/gems/2.6.0/gems/compass-core-1.0.3/stylesheets\A         on line 7 of /Users/alexhillman/Sites/travelfood.guide/sass/ie.scss\A \A 2:  * Import this file using the following HTML or equivalent:\A 3:  * <!--[if IE]>\A 4:  *   <link href=\"/stylesheets/ie.css\" media=\"screen, projection\" rel=\"stylesheet\" type=\"text/css\" />\A 5:  * <![endif]--> */\A 6: \A 7: @import \"internetexplorer\";"; }

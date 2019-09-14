@@ -684,7 +684,6 @@ h1, .h1 {
 h2, .h2 {
   font-size: 1.65rem;
   padding-bottom: 10px;
-  text-transform: uppercase;
   font-weight: 800;
   color: #1e1b1a;
   letter-spacing: 1px;
