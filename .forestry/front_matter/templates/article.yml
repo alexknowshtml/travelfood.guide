@@ -4,16 +4,28 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Article Title
+  config:
+    required: true
 - type: datetime
   name: date
-  label: date
+  label: Published Date
+  config:
+    required: true
+  default: now
 - type: text
   name: author
-  label: author
+  label: Author Name
+  config:
+    required: true
 - type: text
   name: layout
-  label: layout
+  label: Template
+  config:
+    required: true
+  default: post
 - type: text
   name: coordinates
-  label: coordinates
+  label: Coordinates
+  config:
+    required: true
