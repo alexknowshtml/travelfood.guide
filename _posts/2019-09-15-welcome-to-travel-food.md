@@ -27,6 +27,8 @@ Every voter wrote their (on a scale of 1-10) vote on a napkin and shared their r
 
 And this stew (and accompanying muffin) received 9.5-10 scores across the board. The highest rated place on our trip!
 
+***
+
 **Dophin Marina and Restaurant is just one of the many amazing restaurants featured in our epic** [**Travel Food Guide to Portland, Maine**](/portland-me/)**.** 
 
 **Get your copy today, or** [**check out all of our city guides**](#cities)**!**
