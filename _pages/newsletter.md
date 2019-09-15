@@ -1,14 +1,12 @@
 ---
-title: "Let me tell you where to eat."
+title: "Trust Yelp reviews? Nah. Let a chef tell you where to eat."
 layout: default
 permalink: "/newsletter"
 ---
 
 <h2>{{page.title}}</h2>
 
-If you're a foodie who on the go, drop your email in the box below to get my pro-tips for finding the best food while traveling.
-
-You'll also be the first to know when new city guides are available!
+If you're a foodie who on the go, drop your email in the box below to <strong>get my pro-tips for finding the best food while traveling</strong>. You'll also be the first to know when new city guides are available!
 
 <div class="rm-area-newsletter"></div>
 
