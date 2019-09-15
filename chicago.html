@@ -86,8 +86,8 @@
       </section>
 
       <section id="intro" class='active'>
-        <h1 style="text-align:center;"><a href="/"><img src="/images/travelfood.png" alt="Travel Food Guides" width="70%" /></a></h1>
-        <p style="text-align:center;"><a href="/">Home</a> | <a href="#cities">All Cities</a></p>
+        <h1 style="text-align:center;"><a href="/"><img src="/images/travelfood.png" alt="Travel Food Guides" width="90%" /></a></h1>
+        <p style="text-align:center;"><a href="/">Start Here</a> | <a href="#cities">All Cities</a> | <a>Articles</a></p>
       </section>
 
       <section id='chicago'>
@@ -174,7 +174,7 @@
           <a href="/chicago.html"><i class="mg map-us-il"></i><span>Chicago, Illinois</span></a>
           <a href="/portland-me.html"><i class="mg map-us-me"></i><span>Portland, Maine</span></a>
         </div>
-
+        <p style="text-align:center;"><em>And more coming soon!</em></p>
         <div class="rm-area-end-of-blog"></div>
       </div>
 
@@ -198,9 +198,9 @@
     var map = new mapboxgl.Map({
       container: 'map',
       style: 'mapbox://styles/mapbox/outdoors-v9',
-      center: [-75.14771318720756,39.96206578178155], // your starting coordiantes
-      zoom: 11.5,
-      bearing: 25,
+      center: [-87.66189546553414,41.882311799770804],
+      zoom: 11,
+      bearing: -25,
       pitch: 40,
       duration: 8000
     });
@@ -220,18 +220,18 @@
 
       // give each location the same name as its section id, and set its coordinates here
       'intro': {
-        center: [-75.14771318720756,39.96206578178155], // your starting coordiantes
-        zoom: 11.5,
-        bearing: 25,
+        center: [-87.66189546553414,41.882311799770804],
+        zoom: 11,
+        bearing: -25,
         pitch: 40,
         duration: 8000
       },
       'new-orleans': {
         center: [-90.08291522989055,29.94629236247735],
-          zoom: 12.5,
-          bearing: 25,
-          pitch: 40,
-          duration: 8000
+        zoom: 12.5,
+        bearing: 25,
+        pitch: 40,
+        duration: 8000
       },
       'chicago': {
           center: [-87.66189546553414,41.882311799770804],

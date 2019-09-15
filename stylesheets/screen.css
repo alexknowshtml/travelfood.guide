@@ -866,6 +866,11 @@ button {
 }
 
 /* line 70, ../sass/btn.scss */
+.rm-c a.rm-powered, .rm-no-c a.rm-powered {
+  display: none !important;
+}
+
+/* line 72, ../sass/btn.scss */
 .rm-inline div.rm-answer-container .rm-button[data-v-9969fc36] {
   font-weight: bold !important;
 }
