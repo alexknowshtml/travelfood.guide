@@ -6,13 +6,13 @@ layout: default
 
 ## "Where should we go to eat?"
 
-When you're visiting a new city, figuring out where to have breakfast, lunch, dinner, and drinks can feel like a total gamble. Yelp reviews are hit or miss (mostly miss), and even the top 10 lists you'll find on Google can leave you guessing.
+Any time you're visiting a new city, searching out the BEST spots for breakfast, lunch, dinner, and drinks can feel like a total roll of the dice. Yelp reviews are hit or miss (mostly miss), and even the top 10 lists you'll find on Google can leave you guessing.
 
-When you have just a few days to enjoy in a new place, how do you know which are the overhyped, touristy spots you can skip? It's tough to tell the difference between a spot that's "popular" and a spot that's really just average.
+When you have just a few days to enjoy in a new place, it's easy to land somewhere "popular" but totally average. If you're a food-obsessed traveler like me, you want to make sure every meal is memorable and represents the absolute best of local fare.
 
-**How do you make sure every meal is maximum-delicious?**
+How are you supposed to you know which are the overhyped, touristy spots you can skip?
 
-If you're a food-obsessed traveler like me, you want to make sure every meal is memorable and represents the best of local fare.
+_How do you make sure every meal is maximum-delicious?_
 
 You can't just settle for the spot that's closest to your AirBnB. The last thing you want is to waste your precious travel meals on something underwhelming because you're tired, or unprepared, or overwhelmed with choices.
 
@@ -21,7 +21,7 @@ You can't just settle for the spot that's closest to your AirBnB. The last thing
 
 <img src="images/face-p-thumbsup.png" alt="Chef Patterson Watkins" style="width:49%; max-width:150px;float:right;margin-top:-20px;" />
 
-Imagine if your trip was planned around local and culturally relevant foodstuffs, all personally vetted by a professional chef (instead of a Yelper or amateur food blogger)?
+Imagine if your next trip was easily planned around local and culturally relevant foodstuffs, all personally vetted by a professional chef (instead of a Yelper or amateur food blogger)?
 
 Hi, I'm Patterson! I'm a professional chef and independent recipe developer based in Philadelphia and when it comes to travel, **my #1 priority is knowing where I can get the best eats at all times.**
 
