@@ -3,7 +3,7 @@ title: The most surprising side-dish in New England
 date: 2019-09-15T05:34:01.000+00:00
 author: Patterson Watkins
 layout: post
-
+coordinates: '-70.25374289904704,43.65417957955759'
 ---
 A few years ago I dragged a couple of friends and my husband to Maine. It was a two fold trip, one-to see the New England fall foliage and two-to see how much lobster we can eat in a long weekend.
 
