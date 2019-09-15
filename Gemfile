@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'github-pages'
+gem 'jekyll-extlinks'
+gem 'jekyll-include-cache'
+gem 'jekyll-menus'
+gem 'jekyll-paginate-v2'
+gem 'jekyll-feed'

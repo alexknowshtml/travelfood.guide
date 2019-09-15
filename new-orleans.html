@@ -1,288 +1,85 @@
-<!doctype html>
-
-<html lang="en">
-<head>
-  <!-- RightMessage -->
-  <script type="text/javascript">
-  (function(p, a, n, d, o, b, c) {
-      o = n.createElement('script'); o.type = 'text/javascript'; o.async = true; o.src = 'https://tag.rightmessage.com/'+p+'.js';
-      b = n.getElementsByTagName('script')[0]; d = function(h, u, i) { var c = n.createElement('style'); c.id = 'rmcloak'+i;
-          c.type = 'text/css'; c.appendChild(n.createTextNode('.rmcloak'+h+'{visibility:hidden}.rmcloak'+u+'{display:none}'));
-          b.parentNode.insertBefore(c, b); return c; }; c = d('', '-hidden', ''); d('-stay-invisible', '-stay-hidden', '-stay');
-      setTimeout(o.onerror = function() { c.parentNode && c.parentNode.removeChild(c); }, a); b.parentNode.insertBefore(o, b);
-  })('2287177', 20000, document);
-  </script>
-  <meta charset="utf-8">
-  <title>What a chef eats in New Orleans - 24 hour, 48 hour, and 1 week visits to the best food cities in the world - Travel Food Guides</title>
-  <meta name="description" content="24 hour, 48 hour, and 1 week guides to the best eating and drinking in cities around the world">
-  <meta name="author" content="Patterson Watkins">
-  <link rel="apple-touch-icon" sizes="57x57" href="/images/icons/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="/images/icons/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="/images/icons/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="/images/icons/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="/images/icons/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="/images/icons/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="/images/icons/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="/images/icons/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/icons/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="/images/icons/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/icons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="/images/icons/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/icons/favicon-16x16.png">
-  <link rel="manifest" href="/images/icons/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
-  <meta name="theme-color" content="#ffffff">
-
-  <!-- Metatags -->
-  <meta property="og:title" content="Chef-Tested Food Travel Guides " />
-  <meta property="og:url" content="https://travelfood.guide" />
-  <meta property="og:type" content="website" />
-  <meta property="og:description" content="Travel Food Guides - Chef-Tested Guides for 24 hour, 48 hour, and 1 week visits to the best food cities in the world" />
-  <meta property="og:image" content="/images/travelfood-facebook.jpg" />
-
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Chef-Tested Food Travel Guides" />
-  <!-- <meta name="tiwtter:creator" content="@your_twitter_handle" /> -->
-  <meta name="twitter:description" content="Travel Food Guides - Chef-Tested Guides for 24 hour, 48 hour, and 1 week visits to the best food cities in the world" />
-  <meta name="twitter:url" content="https://travelfood.guide" />
-  <meta property="og:image" content="/images/travelfood-twitter.jpg" />
-
-  <!-- Mapbox GL styles -->
-  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
-  <script src="https://gumroad.com/js/gumroad.js"></script>
-  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.2/mapbox-gl.js'></script>
-  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.42.2/mapbox-gl.css' rel='stylesheet' />
-
-  <script src="js/vendor/modernizer.js"></script>
-
-  <!-- All our css -->
-  <link href="/stylesheets/mapglyphs.css" rel="stylesheet">
-  <link href="/stylesheets/screen.css" rel="stylesheet">
-
-  <!--[if lt IE 9]>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
-  <![endif]-->
-</head>
-
-<body>
-
-  <div class="container">
-
-    <div id="map"> <!-- this is where our map will go -->
-    </div> <!-- end map -->
-
-    <div id="writing"> <!-- and this is where all the writing and pictures go -->
-
-      <!-- this is an optional navigation -->
-      <section class="navigation">
-        <a class="toggle"></a>
-        <div class="menu">
-          <!-- Add a link like this for each state or country section you plan to add -->
-          <a href="/new-orleans.html" title="Skip to New Orleans, Louisiana" class="la nav-icon"><i class="mg map-us-la"></i></a>
-          <a href="/chicago.html" title="Skip to Chicago, Illinois" class="il nav-icon"><i class="mg map-us-il"></i></a>
-          <a href="/portland-me.html" title="Skip to Portland, Maine" class="me nav-icon"><i class="mg map-us-me"></i></a>
-        </div>
-      </section>
-
-      <section id="intro" class='active'>
-        <h1 style="text-align:center;"><a href="/"><img src="/images/travelfood.png" alt="Travel Food Guides" width="90%" /></a></h1>
-        <p style="text-align:center;"><a href="/">Start Here</a> | <a href="#cities">All Cities</a> | <a>Articles</a></p>
-      </section>
-      <section id='new-orleans'>
-        <div class="section" id="nav-neworleans">
-          <i class="mg map-us-la"></i>
-          <h2>New Orleans, Louisiana </h2>
-          <p><strong class="h4">Grab your guide now! 3 versions available with up to 40 chef-tested recommendations in New Orleans.</strong></p>
-          <p><em>Get hungry, because your visit to the "Big Easy" is going to be big on indulgence.</em></p>
-          <p>From creative quick service to award winning fine dining, must visit back alley dives to swanky scenes...we have hand picked choices for you every step of the way. </p>
-          <img src="/images/face-p-eating.png" alt="Chef Patterson Watkins" style="width:49%; max-width:250px;float:right;" />
-          <p>New Orleans is a domestic city with a foreign feel, steeped in European colonial history and further enhanced by African and American influences. Nola honors tradition and celebrates creativity with every bowl of gumbo, every seafood stuffed po'boy and every amply-sugared pillowy beignet.</p>
-          <p>This vibrant city is buzzing 365 days a year with opportunities abound for fabulous food, drink and fun. Trust us, we supped, we sipped and we supped some more (leading to a half-hearted attempt at a diet cleanse once we returned home).</p>
-          <img src="/images/guide-covers/nola-phone.png" style="float:left;width:85px;margin-right:25px;"/>
-          <p>Our New Orleans food guides give you <strong>up to 40 chef-selected options for delicious destinations</strong> complete with gastronomic descriptions, tantalizing tips, and convenient Google Maps shortcuts (one click and 'poof' you'll have our Google maps loaded onto your device so you always know the tastiest spots nearby).</p>
-
-          <hr/>
-
-          <h3>24 Hour Chef's Guide to Eating & Drinking New Orleans</h3>
-
-          <p>Just one day to explore the tastes of New Orleans? Fear not, with this guide you get my top 9 picks for making the most out of your short New Orleans experience. </p>
-          <p>From a centuries old po'boy bar at lunchtime, to a James Beard award winning chef executing the perfect representation of creativity and creole, <strong>this guide is your must not miss</strong> list for the day. We even made sure to add the best spot to sip bourbon on Bourbon Street and an iconic sweet treat to your night cap.</p>
-
-          <img src="/images/guide-covers/NOLA-24.png" style="float:right;" />
-          <p><strong>This 24 Hour Chef's Guide includes 9 recommendations including:</strong></p>
-          <ul>
-            <li>delicious dining recommendations (including our TOP recommendations for lunch and dinner)</li>
-            <li>intoxicating spots for drinks (and snacks to help ward off the famous Bourbon Street blackouts/hangovers)</li>
-            <li>our favorite non-eating activities (lol) to get the best sense of the culture and city in your limited available time. </li>
-          </ul>
-
-          <p><em>When you buy, you get a downloadable/printable guide to all 9 destinations, plus our easy-to-install Google Maps overlay.</em> </p>
-          <p class="center"><a class="btn" href="https://gum.co/nola-24" target="_blank" data-gumroad-single-product="true" target="_blank">New release price! <br/>Get the 24 Hour Chef's Guide to New Orleans for just <strike>$27</strike> $17:</strong></a></p>
-
-          <h3>48 Hour Chef's Guide to Eating & Drinking New Orleans</h3>
-
-          <p>Have a little more time to explore the best food and drink New Orleans has to offer?</p>
-          <p>19 chef-endorsed options await you: from regional cocktails served in the exact building where they were invented; to music venues pumping out Nola's best brass band jazz: to the best fried chicken in the entire United States (YUP!); to a unique restaurant located <em>inside an actual museum</em> honoring Southern food and beverages and the people behind it. PLUS the restaurant serving the world's best creole and soul food.
-
-          <img src="/images/guide-covers/NOLA-48.png" style="float:right;" />
-          <p><strong>This 48 Hour Chef's Guide includes</strong></p>
-
-          <ul>
-            <li>delicious dining recommendations (including our TOP recommendations for lunch and dinner)</li>
-            <li>intoxicating spots for drinks (and snacks to help ward off the famous Bourbon Street blackouts/hangovers)</li>
-            <li>our favorite non-eating activities (lol) to get the best sense of the culture and city in your limited available time. </li>
-          </ul>
-
-          <p><em>When you buy, you get a downloadable/printable guide to all 19 destinations, plus our easy-to-install Google Maps overlay.</em> </p>
-
-          <p class="center"><a class="btn" href="https://gum.co/nola-48" target="_blank" data-gumroad-single-product="true" target="_blank">New release price! <br/>Get the 48 Hour Chef's Guide to New Orleans for just <strike>$37</strike> $27:</strong></a></p>
+---
+title: "What a chef eats in New Orleans"
+id: nola
+coordinates: '-90.08291522989055,29.94629236247735'
+permalink: "/new-orleans/"
+layout: city
+---
 
 
-          <h3>THE FULL BELLY - A 1 Week Chef's Guide to Eating and Drinking in New Orleans</h3>
+<i class="mg map-us-la"></i>
+<h2>New Orleans, Louisiana</h2>
 
-          <p>This is a humdinger of a list: 40 chef-tested food and beverage recommendations (plus a few activities to help you burn off the calories) to keep you going for an entire week of eating and drinking in NOLA. If you're up for the challenge, it's all here in our ultimate fully loaded guide! </p>
-          <img src="/images/guide-covers/NOLA-full.png" style="float:right;" />
-          <p><strong>This FULL BELLY guide to New Orleans includes a whopping 40 recommendations:</strong></p>
-          <ul>
-            <li>delicious dining recommendations (including our TOP recommendations for lunch and dinner)</li>
-            <li>intoxicating spots for drinks (and snacks to help ward off the famous Bourbon Street blackouts/hangovers)</li>
-            <li>our favorite non-eating activities (lol) to get the best sense of the culture and city in your limited available time. </li>
-          </ul>
+<p><strong class="h4">Grab your guide now! 3 versions available with up to 40 chef-tested recommendations in New Orleans.</strong></p>
 
-          <p><em>When you buy, you get a downloadable/printable guide to all 40 destinations, plus our easy-to-install Google Maps overlay.</em> </p>
+<p><em>Get hungry, because your visit to the "Big Easy" is going to be big on indulgence.</em></p>
 
-          <p class="center"><a class="btn" href="https://gum.co/nola-week" target="_blank" data-gumroad-single-product="true" target="_blank">New release price! <br/>Get our FULL BELLY Chef's Guide to New Orleans for just <strike>$47</strike> $37:</strong></a></p>
-        </div>
-      </section>
-      <div class="section">
-        <h2 id="cities" >Check out all of my favorite Travel Food cities:</h2>
-        <div id="toc-list">
-          <a href="/new-orleans.html"><i class="mg map-us-la"></i><span>New Orleans, Louisiana</span></a>
-          <a href="/chicago.html"><i class="mg map-us-il"></i><span>Chicago, Illinois</span></a>
-          <a href="/portland-me.html"><i class="mg map-us-me"></i><span>Portland, Maine</span></a>
-        </div>
-        <p style="text-align:center;"><em>And more coming soon!</em></p>
-        <div class="rm-area-end-of-blog"></div>
-      </div>
-      <!-- This is the end! -->
-      <div class="section end">
-        <h4 class="h4">Special Thanks</h4>
-        <p>Website Design inspired by <a href="https:/laurenhallden.com" title="Lauren Hallden, Designer">Lauren Hallden</a>'s <a href="https://www.laurenhallden.com/2018travellog/">Travel Log</a>.</p>
-      </div>
+<p>From creative quick service to award winning fine dining, must visit back alley dives to swanky scenes...we have hand picked choices for you every step of the way. </p>
 
-    </div> <!-- end writing -->
+<img src="/images/face-p-eating.png" alt="Chef Patterson Watkins" style="width:49%; max-width:250px;float:right;" />
 
-  </div> <!-- end container -->
+<p>New Orleans is a domestic city with a foreign feel, steeped in European colonial history and further enhanced by African and American influences. Nola honors tradition and celebrates creativity with every bowl of gumbo, every seafood stuffed po'boy and every amply-sugared pillowy beignet.</p>
 
-  <!-- JS -->
-  <script src="/js/vendor/jquery.js"></script>
+<p>This vibrant city is buzzing 365 days a year with opportunities abound for fabulous food, drink and fun. Trust us, we supped, we sipped and we supped some more (leading to a half-hearted attempt at a diet cleanse once we returned home).</p>
 
-  <!-- Here's where we give the map all of its settings and locations -->
-  <script>
-    mapboxgl.accessToken = 'pk.eyJ1IjoiYWxleGhpbGxtYW4iLCJhIjoiY2pxNjF6ODVuMmF3ZDQzc2Jtb2RwaXIyMSJ9.oTk8zCBC2PtpiwdYjY7ISw'; // Add your mapbox API key here
+<img src="/images/guide-covers/nola-phone.png" style="float:left;width:85px;margin-right:25px;"/>
 
-    var map = new mapboxgl.Map({
-      container: 'map',
-      style: 'mapbox://styles/mapbox/outdoors-v9',
-      center: [-90.08291522989055,29.94629236247735],
-      zoom: 12.5,
-      bearing: 25,
-      pitch: 40,
-      duration: 8000
-    });
+<p>Our New Orleans food guides give you <strong>up to 40 chef-selected options for delicious destinations</strong> complete with gastronomic descriptions, tantalizing tips, and convenient Google Maps shortcuts (one click and 'poof' you'll have our Google maps loaded onto your device so you always know the tastiest spots nearby).</p>
 
-    // map.addControl(new mapboxgl.GeolocateControl({
-    //   positionOptions: {
-    //     enableHighAccuracy: false
-    //   },
-    //   trackUserLocation: false,
-    //   showUserLocation: false,
-    //   fitBoundsOptions: {maxZoom:13}
-    // }));
+<hr/>
 
-    map.scrollZoom.disable();
+<h3>24 Hour Chef's Guide to Eating & Drinking New Orleans</h3>
 
-    var chapters = {
+<p>Just one day to explore the tastes of New Orleans? Fear not, with this guide you get my top 9 picks for making the most out of your short New Orleans experience. </p>
 
-      // give each location the same name as its section id, and set its coordinates here
-      'intro': {
-        center: [-90.08291522989055,29.94629236247735],
-        zoom: 12.5,
-        bearing: 25,
-        pitch: 40,
-        duration: 8000
-      },
-      'new-orleans': {
-        center: [-90.08291522989055,29.94629236247735],
-        zoom: 12.5,
-        bearing: 25,
-        pitch: 40,
-        duration: 8000
-      },
-      'chicago': {
-          center: [-87.66189546553414,41.882311799770804],
-          zoom: 11,
-          bearing: -25,
-          pitch: 40,
-          duration: 8000
-      },
-      'portlandme': {
-          center: [-70.25374289904704,43.65417957955759],
-          zoom: 12.5,
-          bearing: 0,
-          pitch: 70,
-          duration: 8000
-      }
-  };
+<p>From a centuries old po'boy bar at lunchtime, to a James Beard award winning chef executing the perfect representation of creativity and creole, <strong>this guide is your must not miss</strong> list for the day. We even made sure to add the best spot to sip bourbon on Bourbon Street and an iconic sweet treat to your night cap.</p>
 
-  // Every time the page scrolls, we'll check which section is on the screen
-  $('#writing').scroll(function() {
-    var arrPlaces = $("section");
+<img src="/images/guide-covers/NOLA-24.png" style="float:right;" />
 
-    arrPlaces.each(function() {
-      var offset = $(this).offset();
-      var bottom = offset.top + $(this).outerHeight();
-      var windowHeight = $(window).height();
-      var theId = $(this).attr('id');
-      if ($(window).width() > 767) {
-        console.log(theId);
-        if (offset.top < 200 && bottom > 200) {
-          setActiveChapter(theId);
-        }
-      }
-      else if (offset.top < windowHeight) {
-        // this is for mobile; we trigger the map move as soon as a section enters the screen
-        setActiveChapter(theId);
-      }
-      else {
-        $(this).removeClass('active');
-      }
-    });
-  });
+<p><strong>This 24 Hour Chef's Guide includes 9 recommendations including:</strong></p>
+<ul>
+  <li>delicious dining recommendations (including our TOP recommendations for lunch and dinner)</li>
+  <li>intoxicating spots for drinks (and snacks to help ward off the famous Bourbon Street blackouts/hangovers)</li>
+  <li>our favorite non-eating activities (lol) to get the best sense of the culture and city in your limited available time. </li>
+</ul>
 
-  var activeChapterName = 'intro';
+<p><em>When you buy, you get a downloadable/printable guide to all 9 destinations, plus our easy-to-install Google Maps overlay.</em> </p>
 
-  function setActiveChapter(theId) {
-    $('#' + theId).addClass('active');
-    if (theId === activeChapterName) return;
-    map.flyTo(chapters[theId]);
-    activeChapterName = theId;
-  };
+<p class="center"><a class="btn" href="https://gum.co/nola-24" target="_blank" data-gumroad-single-product="true" target="_blank">New release price! <br/>Get the 24 Hour Chef's Guide to New Orleans for just <strike>$27</strike> $17:</strong></a></p>
 
-  // Open and close the optional navigation
+<h3>48 Hour Chef's Guide to Eating & Drinking New Orleans</h3>
 
-  $('.toggle').click(function() {
-    $(this).toggleClass('open');
-    $('.menu').toggleClass('open');
-  });
+<p>Have a little more time to explore the best food and drink New Orleans has to offer?</p>
 
-  $('.menu .nav-icon').click(function() {
-    $('.toggle').removeClass('open');
-    $('.menu').removeClass('open');
-  });
+<p>19 chef-endorsed options await you: from regional cocktails served in the exact building where they were invented; to music venues pumping out Nola's best brass band jazz: to the best fried chicken in the entire United States (YUP!); to a unique restaurant located <em>inside an actual museum</em> honoring Southern food and beverages and the people behind it. PLUS the restaurant serving the world's best creole and soul food.</p>
 
-</script>
+<img src="/images/guide-covers/NOLA-48.png" style="float:right;" />
+<p><strong>This 48 Hour Chef's Guide includes</strong></p>
 
-</body>
-</html>
+<ul>
+  <li>delicious dining recommendations (including our TOP recommendations for lunch and dinner)</li>
+  <li>intoxicating spots for drinks (and snacks to help ward off the famous Bourbon Street blackouts/hangovers)</li>
+  <li>our favorite non-eating activities (lol) to get the best sense of the culture and city in your limited available time. </li>
+</ul>
+
+<p><em>When you buy, you get a downloadable/printable guide to all 19 destinations, plus our easy-to-install Google Maps overlay.</em> </p>
+
+<p class="center"><a class="btn" href="https://gum.co/nola-48" target="_blank" data-gumroad-single-product="true" target="_blank">New release price! <br/>Get the 48 Hour Chef's Guide to New Orleans for just <strike>$37</strike> $27:</strong></a></p>
+
+<h3>THE FULL BELLY - A 1 Week Chef's Guide to Eating and Drinking in New Orleans</h3>
+
+<p>This is a humdinger of a list: 40 chef-tested food and beverage recommendations (plus a few activities to help you burn off the calories) to keep you going for an entire week of eating and drinking in NOLA. If you're up for the challenge, it's all here in our ultimate fully loaded guide! </p>
+
+<img src="/images/guide-covers/NOLA-full.png" style="float:right;" />
+
+<p><strong>This FULL BELLY guide to New Orleans includes a whopping 40 recommendations:</strong></p>
+
+<ul>
+  <li>delicious dining recommendations (including our TOP recommendations for lunch and dinner)</li>
+  <li>intoxicating spots for drinks (and snacks to help ward off the famous Bourbon Street blackouts/hangovers)</li>
+  <li>our favorite non-eating activities (lol) to get the best sense of the culture and city in your limited available time. </li>
+</ul>
+
+<p><em>When you buy, you get a downloadable/printable guide to all 40 destinations, plus our easy-to-install Google Maps overlay.</em> </p>
+
+<p class="center"><a class="btn" href="https://gum.co/nola-week" target="_blank" data-gumroad-single-product="true" target="_blank">New release price! <br/>Get our FULL BELLY Chef's Guide to New Orleans for just <strike>$47</strike> $37:</strong></a></p>

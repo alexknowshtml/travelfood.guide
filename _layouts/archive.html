@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+{% assign category = page.autopages.display_name | slugify %}
+{% if content == "" %}
+  {% assign category_data = site.data.labels.categories | where: "slug", category %}
+  {% if category_data %}{% assign content = category_data.first.markdown | markdownify %}{% endif %}
+{% endif %}
+<div class="card bg-category-{{ category }}">
+  <!-- <h1>{{ page.title }}</h1> -->
+  {{ content }}
+  {% if paginator.total_pages > 1 %}
+  <hr>
+  <div class="pager">
+    {% if paginator.previous_page %}
+      <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button">&larr; Newer Posts</a>
+    {% endif %}
+    {% if paginator.next_page %}
+      <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button">Older Posts &rarr;</a>
+    {% endif %}
+  </div>
+  {% endif %}
+</div>
+
+<br>
+
+<grid column-count="2" phone-column-count="1">
+{% for post in paginator.posts %}
+  {% include_cached post-excerpt.html title=post.title %}
+{% endfor %}
+</grid>
+
+{% if paginator.total_pages > 1 %}
+<div class="pager text-center">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button">&larr; Newer Posts</a>
+  {% endif %}
+  {% if page.pagination_info %}<span class="page-number">Page {{page.pagination_info.curr_page}} of {{page.pagination_info.total_pages}}</span>{% endif %}
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}" class="button">Older Posts &rarr;</a>
+  {% endif %}
+</div>
+{% endif %}

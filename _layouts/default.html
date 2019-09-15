@@ -1,0 +1,38 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  {% include head.html %}
+</head>
+
+<body>
+
+  <div class="container">
+
+    <div id="map"> <!-- this is where our map will go -->
+    </div> <!-- end map -->
+
+    <div id="writing"> <!-- and this is where all the writing and pictures go -->
+
+      {% include nav.html %}
+
+      <section id="intro" class='active'>
+        {% include masthead.html %}
+        <div class="section">
+
+          {{ content }}
+
+        </div>
+      </section>
+
+
+      {% include foot.html %}
+
+    </div> <!-- end writing -->
+
+  </div> <!-- end container -->
+
+  {% include js-includes.html %}
+
+</body>
+</html>

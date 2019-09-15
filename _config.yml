@@ -1,2 +1,53 @@
+# Metadata
+title: Travel Food Guides
+tagline: "Chef-Tested Guides for 24 hour, 48 hour, and 1 week visits to the best food cities in the world"
+url: "https://travelfood.guide"
+default_coordinates: '-75.14771318720756,39.96206578178155'
+
 plugins:
   - jekyll-redirect-from
+  - jekyll-extlinks
+  - jekyll-include-cache
+  - jekyll-menus
+  - jekyll-paginate-v2
+  - jekyll-feed
+
+
+# Pagination
+pagination:
+  enabled: true
+  collection: 'posts'
+  per_page: 20
+  permalink: '/page/:num/'
+  sort_reverse: true
+  title: ':title (Page :num of :max)'
+
+# Autopages
+autopages:
+  enabled: true
+  categories:
+    layouts:
+      - 'archive.html'
+    title: 'Posts about #:cat'
+    permalink: '/category/:cat'
+  tags:
+    enabled: false
+  collections:
+    enabled: false
+
+# Build settings
+encoding: utf-8
+markdown: kramdown
+permalink: /:title/
+exclude:
+  - .sass-cache/
+  - node_modules/
+  - .gitignore
+  - Gemfile
+  - _config.yml
+  - glitch.json
+  - package.json
+  - package-lock.json
+  - watch.json
+  - "*.save.*"
+  - vendor/

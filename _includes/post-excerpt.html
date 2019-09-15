@@ -1,0 +1,9 @@
+<article class="card post-excerpt has-shape-lg has-meta">
+  <h1 class="title"><a href="{{ site.base_url }}{{ post.url }}">{{ post.title }}</a></h1>
+  <div class="meta">
+    <div class="category bg-category-{{ post.categories[0] | slugify }}">{{ post.categories[0] }}</div>{% if post.date %}<div class="date">{{ post.date | date_to_string }}</div>{% endif %}
+  </div>
+  <span class="shape shape-lg shape-category-{{ post.categories[0] | slugify }}"></span>
+  <p class="post-preview">{{ post.excerpt | strip_html | strip_newlines | truncate: 280 }}</p>
+  <strong><a class="button button-light bg-category-{{ post.categories[0] | slugify }}" href="{{ site.base_url }}{{ post.url }}">Continue Reading</a></strong>
+</article>
