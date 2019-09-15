@@ -44,6 +44,7 @@ extlinks:
 encoding: utf-8
 markdown: kramdown
 permalink: /:title/
+include: ['_pages']
 exclude:
   - .sass-cache/
   - node_modules/
