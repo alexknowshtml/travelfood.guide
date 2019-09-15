@@ -13,7 +13,7 @@ sections:
   label: Posts
   create: all
 upload_dir: upload
-public_path: http://travelfood.s3.amazonaws.com/uploads
+public_path: http://travelfood.s3.amazonaws.com/upload
 front_matter_path: ''
 use_front_matter_path: 
 file_template: ":year:-:month:-:day:-:filename:"
