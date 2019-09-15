@@ -17,6 +17,8 @@ We paused our regularly scheduled lobster roll roll when the waiter recommended 
 
 _"…BLUEBERRY MUFFINS!?”_ we all exclaimed followed by huhs, whats and whys… _“it is really really good”_ he continued.
 
+![](/uploads/50cc7b2e7d5b4d87786508ea4e3ea5a0_featured_v2.jpg)
+
 **So, we gave it a try…and it was INCREDIBLE! How incredible?**
 
 Well, as Dolphin Marina and Restaurant was near the tail end of our lobster themed road trip (maybe around the 25lb. point) we considered ourselves lobster aficionados. Every lobster shack and road side restaurant we dined we adopted an Olympic style blind voting.
