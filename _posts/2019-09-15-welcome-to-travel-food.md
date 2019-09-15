@@ -9,8 +9,6 @@ A few years ago I dragged a couple of friends and my husband to Maine. It was a 
 
 We succeeded in both, while the beauty of the seasonal changes was an incredible site, the lobster was the stand out. After the trip we attempted to tally the total weight of all the lobster we consumed, I believe we agreed that it was about 30lbs. between the 4 of us.
 
-![](https://cdn.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_298,h_279/https://www.cameronsseafood.com/wp-content/uploads/2019/02/Picture2-300x281.png =298x279)
-
 ### **Enter the Dolphin Marina and Restaurant in Potts Harbor.** 
 
 A fantastically scenic drive north of Portland, Dolphin Marina and Restaurant is located at the very end of a peninsula overlooking the Casco Bay. 
@@ -22,8 +20,6 @@ _"…BLUEBERRY MUFFINS!?”_ we all exclaimed followed by huhs, whats and whys�
 **So, we gave it a try…and it was INCREDIBLE! How incredible?**
 
 Well, as Dolphin Marina and Restaurant was near the tail end of our lobster themed road trip (maybe around the 25lb. point) we considered ourselves lobster aficionados. Every lobster shack and road side restaurant we dined we adopted an Olympic style blind voting.
-
-![](https://cdn.shortpixel.ai/client/to_webp,q_glossy,ret_img,w_310,h_233/https://www.cameronsseafood.com/wp-content/uploads/2019/02/Picture1-300x225.png =310x233)
 
 Every voter wrote their (on a scale of 1-10) vote on a napkin and shared their rating with the group. The American Judge gives this lobster roll an 8.5 while the Austrian Judge gave it a 7…and so forth. 
 
