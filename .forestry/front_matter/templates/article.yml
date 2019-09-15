@@ -29,3 +29,5 @@ fields:
   label: Coordinates
   config:
     required: true
+pages:
+- _posts/why-airbnb-experiences-are-awesome-for-now.md
