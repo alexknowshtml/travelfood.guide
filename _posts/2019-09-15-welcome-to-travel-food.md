@@ -29,6 +29,7 @@ And this stew (and accompanying muffin) received 9.5-10 scores across the board.
 
 ***
 
-**Dophin Marina and Restaurant is just one of the many amazing restaurants featured in our epic** [**Travel Food Guide to Portland, Maine**](/portland-me/)**.** 
+<img src="/uploads/PORTME-full.png" alt="Portland Maine Guide" style="float:right;" />
+Dophin Marina and Restaurant is just one of the many amazing restaurants featured in our epic** [**Travel Food Guide to Portland, Maine**](/portland-me/)**.** 
 
 **Get your copy today, or** [**check out all of our city guides**](#cities)**!**
