@@ -804,6 +804,11 @@ i:before {
   margin-bottom: 30px;
 }
 
+/* line 633, ../sass/_layout.scss */
+.article p img {
+  max-width: 90%;
+}
+
 /**
  * Reset button styles
  * It takes some work to achieve a “blank slate” look.
