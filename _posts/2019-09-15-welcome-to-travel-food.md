@@ -27,6 +27,8 @@ Every voter wrote their (on a scale of 1-10) vote on a napkin and shared their r
 
 And this stew (and accompanying muffin) received 9.5-10 scores across the board. The highest rated place on our trip!
 
+_This article was excerpted from_ [_this original piece + recipe I wrote for Cameron's Seafood_](https://www.cameronsseafood.com/blog/stories/maines-best-lobster-stew-and-they-serve-it-with-a-blueberry-muffin/)_._
+
 ***
 
 <img src="/uploads/PORTME-full.png" alt="Portland Maine Guide" style="float:left; width:150px; padding-right: 20px;" />
