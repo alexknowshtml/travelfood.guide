@@ -1,9 +1,9 @@
 ---
-title: "Chef-Tested Guides for 24 hour, 48 hour, and 1 week visits to the best food cities in the world - Travel Food Guides"
+title: 'Home: Chef-tested food guides to your favorite cities'
 permalink: "/"
 layout: default
----
 
+---
 ## "Where should we go to eat?"
 
 Any time you're visiting a new city, searching out the BEST spots for breakfast, lunch, dinner, and drinks can feel like a total roll of the dice. Yelp reviews are hit or miss (mostly miss), and even the top 10 lists you'll find on Google can leave you guessing.
