@@ -3,7 +3,7 @@ date: 2019-09-15T23:16:07.000+00:00
 layout: post
 title: Why we love AirBnB Experiences (for now)
 author: Alex Hillman
-coordinates: "-75.14771318720756,39.96206578178155"
+coordinates: 139.740843, 35.669319
 
 ---
 Back in the fall of 2017, Patterson and I finally got to take our dream trip for our honeymoon: **Japan!** And oh, wow, Japan is amazing.
