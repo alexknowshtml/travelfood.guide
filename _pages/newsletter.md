@@ -1,5 +1,5 @@
 ---
-title: Why trust Yelp reviews? Let a chef tell you where to eat.
+title: Trust Yelp reviews? Nah. Let a chef tell you where to eat.
 layout: default
 permalink: "/newsletter"
 
