@@ -8,7 +8,7 @@
     var map = new mapboxgl.Map({
       container: 'map',
       style: 'mapbox://styles/mapbox/outdoors-v9',
-      center: [{% if page.coordinates %} {{ page.coordinates }} {% else %} {{ site.default_coordinates }}{% endif %}], // your starting coordiantes
+      center: [{% if page.coordinates %} {{ page.coordinates }} {% else %} {{ site.default_coordinates }} {% endif %}], // your starting coordiantes
       zoom: 11.5,
       bearing: 25,
       pitch: 40,
@@ -30,7 +30,7 @@
 
       // give each location the same name as its section id, and set its coordinates here
       'intro': {
-        center: [{{ site.default_coordinates }}], // your starting coordiantes
+        center: [{% if page.coordinates %} {{ page.coordinates }} {% else %} {{ site.default_coordinates }}{% endif %}], // your starting coordiantes
         zoom: 11.5,
         bearing: 25,
         pitch: 40,

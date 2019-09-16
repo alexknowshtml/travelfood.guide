@@ -13,10 +13,11 @@
     </div> <!-- end map -->
 
     <div id="writing"> <!-- and this is where all the writing and pictures go -->
-
       {% include nav.html %}
+      <section id="intro" class='active'>
+        {% include masthead.html %}
+      </section>
 
-      {% include masthead.html %}
       <section id='{{page.id}}'>
         <div class="section" id="nav-{{ page.id }}">
           {{ content }}
