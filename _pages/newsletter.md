@@ -8,7 +8,7 @@ permalink: "/newsletter"
 
 If you're looking for an exceptional meal in a new city, why would you  make your dining decisions based on amateur reviews? As a friend once said to my husband:_"I travel regularly for work and Yelp is...not great."_
 
-Drop your email in the box below to <strong>get my pro-tips for finding the best food while traveling</strong>. You'll also be the first to know when new city guides are available!
+So drop your email in the box below to start getting <strong>my pro-tips for finding the best food in any city you're traveling to</strong>. You'll also be the first to know when new city guides are available!
 
 <div class="rm-area-newsletter">Don't see an email box here? You might have a content blocker installed. Please try disabling it for this site!</div>
 
