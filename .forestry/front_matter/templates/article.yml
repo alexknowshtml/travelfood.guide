@@ -30,4 +30,5 @@ fields:
   config:
     required: true
 pages:
+- _posts/test.md
 - _posts/2019-9-15-why-airbnb-experiences-are-awesome-for-now.md
