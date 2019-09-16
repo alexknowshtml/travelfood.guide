@@ -809,6 +809,11 @@ i:before {
   max-width: 90%;
 }
 
+/* line 635, ../sass/_layout.scss */
+.section .card h2.title a {
+  color: #1f1c1a;
+}
+
 /**
  * Reset button styles
  * It takes some work to achieve a “blank slate” look.
